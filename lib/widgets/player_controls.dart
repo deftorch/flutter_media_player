@@ -4,7 +4,7 @@
 // ============================================================
 
 import 'package:flutter/material.dart';
-import '../controllers/player_controller.dart';
+import '../controllers/player_controller.dart' as pc;
 import '../theme/app_theme.dart';
 
 /// [PlayerControls] menampilkan tombol-tombol kontrol pemutar:
@@ -14,7 +14,7 @@ import '../theme/app_theme.dart';
 /// - Next
 /// - Repeat
 class PlayerControls extends StatelessWidget {
-  final PlayerController controller;
+  final pc.PlayerController controller;
 
   const PlayerControls({super.key, required this.controller});
 
@@ -109,17 +109,17 @@ class PlayerControls extends StatelessWidget {
     String tooltip;
 
     switch (controller.repeatMode) {
-      case RepeatMode.none:
+      case pc.RepeatMode.none:
         icon = Icons.repeat;
         color = Colors.grey;
         tooltip = 'Tidak mengulang';
         break;
-      case RepeatMode.one:
+      case pc.RepeatMode.one:
         icon = Icons.repeat_one;
         color = AppTheme.primaryColor;
         tooltip = 'Mengulang 1 lagu';
         break;
-      case RepeatMode.all:
+      case pc.RepeatMode.all:
         icon = Icons.repeat;
         color = AppTheme.primaryColor;
         tooltip = 'Mengulang semua';

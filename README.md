@@ -13,8 +13,13 @@ Aplikasi pemutar musik sederhana berbasis Flutter, dibuat sebagai proyek mata ku
 - [Teknologi & Package](#teknologi--package)
 - [Cara Menjalankan](#cara-menjalankan)
 - [Penjelasan Kode](#penjelasan-kode)
-- [Screenshot](#screenshot)
 - [Alur Kerja Aplikasi](#alur-kerja-aplikasi)
+
+---
+
+## 📸 Screenshot
+
+![Screenshot Aplikasi](assets/images/screenshot.png)
 
 ---
 

@@ -39,9 +39,8 @@ class ProgressBarWidget extends StatelessWidget {
           SliderTheme(
             data: SliderTheme.of(context).copyWith(
               trackHeight: 4,
-              thumbRadius: 8,
               thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 8),
-              overlayRadius: 20,
+              overlayShape: const RoundSliderOverlayShape(overlayRadius: 20),
               activeTrackColor: AppTheme.primaryColor,
               inactiveTrackColor: Colors.grey.withOpacity(0.3),
               thumbColor: Colors.white,
