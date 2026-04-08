@@ -128,7 +128,7 @@ List<SongModel> dummySongs = [
     title: 'Bohemian Rhapsody',
     artist: 'Queen',
     album: 'A Night at the Opera',
-    filePath: 'assets/audio/sample1.mp3',
+    filePath: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
     duration: const Duration(minutes: 5, seconds: 55),
   ),
   SongModel(
@@ -136,7 +136,7 @@ List<SongModel> dummySongs = [
     title: 'Shape of You',
     artist: 'Ed Sheeran',
     album: '÷ (Divide)',
-    filePath: 'assets/audio/sample2.mp3',
+    filePath: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
     duration: const Duration(minutes: 3, seconds: 53),
   ),
   SongModel(
@@ -144,7 +144,7 @@ List<SongModel> dummySongs = [
     title: 'Blinding Lights',
     artist: 'The Weeknd',
     album: 'After Hours',
-    filePath: 'assets/audio/sample3.mp3',
+    filePath: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
     duration: const Duration(minutes: 3, seconds: 20),
   ),
   SongModel(
@@ -152,7 +152,7 @@ List<SongModel> dummySongs = [
     title: 'Levitating',
     artist: 'Dua Lipa',
     album: 'Future Nostalgia',
-    filePath: 'assets/audio/sample4.mp3',
+    filePath: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
     duration: const Duration(minutes: 3, seconds: 23),
   ),
   SongModel(
@@ -160,7 +160,7 @@ List<SongModel> dummySongs = [
     title: 'Stay',
     artist: 'Justin Bieber ft. The Kid LAROI',
     album: 'F*CK LOVE 3',
-    filePath: 'assets/audio/sample5.mp3',
+    filePath: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3',
     duration: const Duration(minutes: 2, seconds: 21),
   ),
 ];

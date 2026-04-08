@@ -166,7 +166,11 @@ class PlayerController extends ChangeNotifier {
       // Set sumber audio
       // Untuk file dari assets, gunakan setAsset()
       // Untuk file dari storage, gunakan setFilePath()
-      await _audioPlayer.setAsset(_currentSong!.filePath);
+      if (_currentSong!.filePath.startsWith('http')) {
+        await _audioPlayer.setUrl(_currentSong!.filePath);
+      } else {
+        await _audioPlayer.setAsset(_currentSong!.filePath);
+      }
       await _audioPlayer.play();
 
       _playerState = PlayerState.playing;
