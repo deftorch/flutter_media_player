@@ -9,6 +9,8 @@ import 'package:flutter_media_player/controllers/player_controller.dart';
 import 'package:flutter_media_player/models/song_model.dart';
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+
   group('SongModel Tests', () {
     // Test 1: Membuat SongModel dengan data valid
     test('SongModel dibuat dengan benar', () {

@@ -29,7 +29,7 @@ class AppTheme {
         elevation: 0,
         backgroundColor: Colors.transparent,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 4,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
@@ -37,7 +37,7 @@ class AppTheme {
       ),
       sliderTheme: SliderThemeData(
         trackHeight: 4,
-        thumbRadius: 8,
+        thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 8),
         activeTrackColor: primaryColor,
         inactiveTrackColor: primaryColor.withOpacity(0.3),
         thumbColor: primaryColor,
@@ -61,7 +61,7 @@ class AppTheme {
         elevation: 0,
         backgroundColor: Colors.transparent,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: darkCard,
         elevation: 8,
         shape: RoundedRectangleBorder(
@@ -70,7 +70,7 @@ class AppTheme {
       ),
       sliderTheme: SliderThemeData(
         trackHeight: 4,
-        thumbRadius: 8,
+        thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 8),
         activeTrackColor: primaryColor,
         inactiveTrackColor: primaryColor.withOpacity(0.3),
         thumbColor: primaryColor,
