@@ -28,7 +28,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-          flutter-version: '3.19.0' # Sesuaikan dengan versi yang dipakai
+          flutter-version: 'any' # Gunakan versi stabil terbaru agar mendukung Gradle project terbaru (.kts)
 
       - name: Install Dependencies
         run: flutter pub get
