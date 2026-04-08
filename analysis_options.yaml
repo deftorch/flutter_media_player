@@ -1,0 +1,33 @@
+# ============================================================
+# FILE: analysis_options.yaml
+# DESKRIPSI: Konfigurasi analisis kode Dart
+# ============================================================
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Wajib tulis return type
+    always_declare_return_types: true
+    
+    # Gunakan const constructor bila memungkinkan
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    
+    # Hindari print() di production
+    avoid_print: true
+    
+    # Wajib tulis override annotation
+    annotate_overrides: true
+    
+    # Prefer final untuk variabel yang tidak berubah
+    prefer_final_locals: true
+    
+    # Urutkan import
+    directives_ordering: true
+
+analyzer:
+  errors:
+    # Jadikan warning sebagai error
+    missing_return: error
+    dead_code: warning

@@ -1,0 +1,43 @@
+name: flutter_media_player
+description: Aplikasi Pemutar Media Sederhana menggunakan Flutter - Tugas Mata Kuliah Pemrograman Mobile
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Audio player utama
+  just_audio: ^0.9.36
+
+  # Manajemen state
+  provider: ^6.1.1
+
+  # Membaca lagu dari storage perangkat
+  on_audio_query: ^2.9.0
+
+  # Izin akses storage
+  permission_handler: ^11.1.0
+
+  # Animasi tambahan
+  animations: ^2.0.8
+
+  # Icon tambahan
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/

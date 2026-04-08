@@ -1,0 +1,11 @@
+FOLDER INI UNTUK GAMBAR COVER ALBUM
+=====================================
+
+Letakkan gambar cover album di sini, contoh:
+- cover1.jpg
+- cover2.jpg
+- default_cover.png (gambar default jika tidak ada cover)
+
+Format yang didukung: JPG, PNG, WebP
+
+Gambar tidak disertakan karena alasan hak cipta.
