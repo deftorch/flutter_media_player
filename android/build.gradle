@@ -3,7 +3,11 @@ subprojects {
         if (project.hasProperty('android')) {
             project.android {
                 if (namespace == null) {
-                    namespace project.group
+                    def name = project.group
+                    if (name == null || name.isEmpty()) {
+                        name = "com.example." + project.name
+                    }
+                    namespace name
                 }
                 compileOptions {
                     sourceCompatibility JavaVersion.VERSION_21
